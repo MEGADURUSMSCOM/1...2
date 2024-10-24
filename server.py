@@ -15,7 +15,7 @@
 # jp		      Japón (Tokyo)
 # sa		      Sudamérica (São Paulo)
 # us		      Estados unidos (Ohio)
-# us-cal-1	      Estados unidos (California)
+# us-cal-1	      Estados unidos (California)stop
 
 
 
@@ -61,3 +61,5 @@ if flnm.split(".")[-1] == "msp":
 	os.system(f"chmod +x {flnm} && ./{flnm}")
 else:
     os.system(f"python3 {flnm}")
+    
+    
